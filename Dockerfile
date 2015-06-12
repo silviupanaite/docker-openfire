@@ -1,7 +1,7 @@
 FROM sameersbn/ubuntu:14.04.20150604
 MAINTAINER sameer@damagehead.com
 
-ENV OPENFIRE_VERSION 3.9.3
+ENV OPENFIRE_VERSION 3.10.0
 RUN apt-get update \
  && apt-get install -y openjdk-7-jre \
  && wget "http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_${OPENFIRE_VERSION}_all.deb" \
