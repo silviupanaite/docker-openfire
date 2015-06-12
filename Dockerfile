@@ -1,4 +1,4 @@
-FROM FROM ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER silviu.panaite@gmail.com
 
 ENV OPENFIRE_VERSION 3.10.0
